@@ -1,5 +1,5 @@
 
-# An introduction to sets
+# Introduction to Sets
 
 ## Introduction
 
@@ -7,9 +7,10 @@ You have definitely heard of sets before. In this section, however, you will lea
 
 ## Objectives
 
-After reading this, you will:
+You will be able to: 
+
 - Understand what a set is
-- Learn how to define a universal set and subsets
+- Define a universal set and subsets
 - Learn about sets unions, intersections, complements
 - Learn how to use Venn Diagrams to understand about the relationships between sets
 
@@ -151,10 +152,3 @@ https://docs.python.org/2/library/sets.html
 ## Summary
 
 In this section, we started off explaining what sets, subsets and universal sets are. Next, you learned about some elementary such as unions, intersections and complements. After that, we tied all this info together through the inclusion exclusion principle. Finally we talked a little bit about how sets work in Python.
-
-## Sources
-https://en.wikibooks.org/wiki/Probability/Set_Theory
-
-https://en.wikipedia.org/wiki/Venn_diagram
-
-http://www.gghh.name/dibtp/2014/04/03/exploding-intersections-with-the-inclusion-exclusion-principle.html
