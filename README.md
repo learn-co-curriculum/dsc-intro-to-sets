@@ -72,7 +72,7 @@ In mathematical terms, the union of $S$ and $T$ is denoted as $S \cup T$
 
 A popular way to represent sets and their relationships is through Venn Diagrams, (https://en.wikipedia.org/wiki/Venn_diagram), see picture below!
 
-<img src="images/union.png" width = "250"/>
+<img src="images/union.png" width="250"/>
 
 ### b) Intersection of Two sets 
 
@@ -82,7 +82,7 @@ Applied to our example, the intersection of $S$ and $T$ is given by {6}, so it c
 
 In mathematical terms, the union of $S$ and $T$ is denoted as $S \cap T$.
 
-<img src="images/intersection.png" width = "250"/>
+<img src="images/intersection.png" width="250"/>
 
 ### c) Relative complement or the difference
 
