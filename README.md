@@ -109,7 +109,7 @@ s assume this set contains the multiples of both 2 and 3 until 20. Then the elem
 
 The absolute component of $S$ (so $S'$ or $S^c$) is then given by $\{2,4,8,10,14,15,16,18,20\}$.
 
-<img src="images/abs_comp.png" width=250/>
+<img src="images/abs_comp.png" width="250"/>
 
 ## Inclusion Exclusion principle
 
