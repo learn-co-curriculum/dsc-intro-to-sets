@@ -15,8 +15,7 @@ You will be able to:
 - Learn how to use Venn Diagrams to understand about the relationships between sets
 
 
-
-## What is a set? 
+## What is a Set? 
 
 In probability theory, a set is denoted as a *well-defined collection of objects*. 
 
@@ -39,7 +38,7 @@ To avoid any confusion regarding whether $T$ is a proper subset of $S$ or not, y
 
 **Example**: If S is the set of even numbers, set $T = {2, 6, 22}$ is a proper subset of $S$. Formally, you can write this as $T \subsetneq S$, or more ambiguously, $T \subset S$.
 
-## Universal sets
+## Universal Sets
 
 The collection of all possible outcomes in a certain context or universe is called the **universal set**.
 A universal set is often denoted by $\Omega$.
@@ -52,7 +51,7 @@ Remember that a universal set is not necessarily all the possible things that ha
 
 A universal set can have an infinite number of elements, for example, the set of all real numbers!
 
-## Elementary set operations
+## Elementary Set Operations
 
 Next, let's talk about set operations. Imagine you have two sets of numbers, say the first 4 multiples of 3 in set $S$:
 
@@ -62,7 +61,7 @@ and the first 4 multiples of 2 in set $T$:
 
 $ T = \{2,4,6,8\} $.
 
-### a) Union of two sets
+### a) Union of Two Sets
 
 The union of 2 sets $S$ and $T$ is the set of elements of either S or T, or in both.  
 
@@ -74,7 +73,7 @@ A popular way to represent sets and their relationships is through Venn Diagrams
 
 <img src="images/union.png" width="250"/>
 
-### b) Intersection of Two sets 
+### b) Intersection of Two Sets 
 
 The intersection of two sets $S$ and $T$ is the set that contains all elements of $S$ that also belong to $T$. 
 
@@ -84,7 +83,7 @@ In mathematical terms, the union of $S$ and $T$ is denoted as $S \cap T$.
 
 <img src="images/intersection.png" width="250"/>
 
-### c) Relative Complement or the difference
+### c) Relative Complement or the Difference
 
 If you have S and T, the relative complement of S contains all the elements of T that are NOT in S. This is also sometimes referred to as the *difference*. The difference is denoted by $ T\backslash S $ or $T-S$.
 
