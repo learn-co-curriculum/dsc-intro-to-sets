@@ -72,7 +72,7 @@ In mathematical terms, the union of $S$ and $T$ is denoted as $S \cup T$
 
 A popular way to represent sets and their relationships is through Venn Diagrams, (https://en.wikipedia.org/wiki/Venn_diagram), see picture below!
 
-<img src="images/union.png" width=250>
+<img src="images/union.png" width = 250/>
 
 ### b) Intersection of Two sets 
 
@@ -82,7 +82,7 @@ Applied to our example, the intersection of $S$ and $T$ is given by {6}, so it c
 
 In mathematical terms, the union of $S$ and $T$ is denoted as $S \cap T$.
 
-<img src="images/intersection.png" width = 250>
+<img src="images/intersection.png" width = 250/>
 
 ### c) Relative complement or the difference
 
@@ -90,7 +90,7 @@ If we have S and T, the relative complement of S contains all the elements of T 
 
 In this case, the relative complement of S (or $ T\backslash S $) is $\{2,4,8\}$. The relative complement of T (or $ S\backslash T $) is $\{3,9,12\}$.
 
-<img src="images/rel_comp.png" width=250>
+<img src="images/rel_comp.png" width=250/>
 
 ### d) Absolute complement
 
@@ -109,7 +109,7 @@ s assume this set contains the multiples of both 2 and 3 until 20. Then the elem
 
 The absolute component of $S$ (so $S'$ or $S^c$) is then given by $\{2,4,8,10,14,15,16,18,20\}$.
 
-<img src="images/abs_comp.png" width=250>
+<img src="images/abs_comp.png" width=250/>
 
 ## Inclusion Exclusion principle
 
@@ -132,7 +132,7 @@ $\mid S \cup T\cup R \mid = \mid S \mid + \mid T \mid + \mid R \mid - \mid S \ca
 
 
 
-<img src="images/venn_diag.png" width=350>
+<img src="images/venn_diag.png" width=350/>
 
 ## Empty sets
 
