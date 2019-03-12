@@ -18,22 +18,22 @@ You will be able to:
 
 ## What is a set? 
 
-In probability theory, a set is denoted as a *well-defined colletion of objects*. 
+In probability theory, a set is denoted as a *well-defined collection of objects*. 
 
 Mathematically, you can define a set by $S$. If an element $x$ belongs to a set $S$, then you'd write $x \in S$. On the other hand, if $x$ does not belong to a set $S$, then you'd write $x\notin S$.
 
-Example: Imagine we define $S$ the set of even numbers.
+Example: If $S$ is defined as the set of even numbers, then
 
-If $x = 2$, $x\in S$ because $x$ is an even number.
+$x = 2$ means that $x\in S$ because $x$ is an even number.
 
-If $x = 9$, $x\notin S$ because $x$ is not an even number.
+$x = 9$ means that $x\notin S$ because $x$ is not an even number.
 
 
 ## Subsets
 
 Set $T$ is a subset of set $S$ if *every element* in set $T$ is also in set $S$. The mathematical notation for a subset is $T \subset S$. 
 
-Do note that this particular definition doesn't require $S$ and $T$ to be different. In fact you could argue that a special case of a subset is where $T = S$! In this case, however, not only is $T \subset S$, but it is also true that $S \subset T$. We say that T is a *proper subset* if S if T and S are not equal, this is sometimes also denoted by $T \subsetneq S$. 
+Note how this particular definition doesn't require $S$ and $T$ to be different. In fact you could argue that a special case of a subset is where $T = S$! In this case, however, not only is $T \subset S$, but it is also true that $S \subset T$. T is defined as a *proper subset* of S if T and S are not equal, this is sometimes also denoted by $T \subsetneq S$. 
 
 To avoid any confusion regarding whether $T$ is a proper subset of $S$ or not, you can use $T \subsetneq S$ and $T \subseteq S$ instead of the more ambiguous $\subset$.
 
@@ -48,13 +48,13 @@ Example of a universal set: all the possible outcomes when rolling a dice.
 
 $\Omega = \{1,2,3,4,5,6\}$
 
-So remember that a universal set is not necessarily all the possible things that have ever existed. typically, a universal set is just all the possible elements within certain bounds, e.g., the set of all countries in the world, the set of all the animal species in the Bronx Zoo,...
+Remember that a universal set is not necessarily all the possible things that have ever existed. typically, a universal set is just all the possible elements within certain bounds, e.g., the set of all countries in the world, the set of all the animal species in the Bronx Zoo,...
 
-Do note that a universal set can have an infinite number of elements, for example, the set of all real numbers!
+A universal set can have an infinite number of elements, for example, the set of all real numbers!
 
 ## Elementary set operations
 
-Let's talk about set operations. Imagine you have two sets of numbers, say the first 4 multiples of 3 in set $S$:
+Next, let's talk about set operations. Imagine you have two sets of numbers, say the first 4 multiples of 3 in set $S$:
 
 $ S = \{3,6,9,12\}$
 
@@ -84,17 +84,17 @@ In mathematical terms, the union of $S$ and $T$ is denoted as $S \cap T$.
 
 <img src="images/intersection.png" width="250"/>
 
-### c) Relative complement or the difference
+### c) Relative Complement or the difference
 
-If we have S and T, the relative complement of S contains all the elements of T that are NOT in S. This is also sometimes referred to as the *difference*. The difference is denoted by $ T\backslash S $ or $T-S$.
+If you have S and T, the relative complement of S contains all the elements of T that are NOT in S. This is also sometimes referred to as the *difference*. The difference is denoted by $ T\backslash S $ or $T-S$.
 
 In this case, the relative complement of S (or $ T\backslash S $) is $\{2,4,8\}$. The relative complement of T (or $ S\backslash T $) is $\{3,9,12\}$.
 
 <img src="images/rel_comp.png" width="250"/>
 
-### d) Absolute complement
+### d) Absolute Complement
 
-There is another definition of the complement when we consider universal sets $\Omega$ as well. In this context, we talk about the *absolute complement*.
+There is another definition of the complement when considering universal sets $\Omega$ as well. In this context, we're talking about the *absolute complement*.
 
 The absolute complement of $S$, with respect to the Universal set $\Omega$, is the collection of the objects in $\Omega$ that don't belong to $S$.
 
@@ -111,9 +111,9 @@ The absolute component of $S$ (so $S'$ or $S^c$) is then given by $\{2,4,8,10,14
 
 <img src="images/abs_comp.png" width="250"/>
 
-## Inclusion Exclusion principle
+## Inclusion Exclusion Principle
 
-Note that if we want to know how many elements are in set $S$ versus $T$ we cannot simply sum up the elements, because they have elements in common.
+Note that if you want to know how many elements are in set $S$ versus $T$, you can't simply sum up the elements, because they have elements in common.
 
 In combinational mathematics, the inclusion-exclusion principle is a counting technique solve this problem.
 
@@ -125,7 +125,7 @@ Where the horizontal lines denote the *cardinality* of a set, which is the numbe
 
 The formula expresses the fact that the sum of the sizes of the two sets may be too large since some elements may be counted twice. For the double-counted elements, one is substracted again.
 
-This formula can be extended to three sets, four sets, etc. Imagine we have a third set $R$:
+This formula can be extended to three sets, four sets, etc. Imagine you have a third set $R$:
 
 $\mid S \cup T\cup R \mid = \mid S \mid + \mid T \mid + \mid R \mid - \mid S \cap T \mid  -\mid S \cap R \mid - \mid R \cap T \mid  + \mid S \cap T \cap R \mid $
 
@@ -134,9 +134,9 @@ $\mid S \cup T\cup R \mid = \mid S \mid + \mid T \mid + \mid R \mid - \mid S \ca
 
 <img src="images/venn_diag.png" width="350"/>
 
-## Empty sets
+## Empty Sets
 
-When there are no elements in a certain set, we say that the set is **empty**, denoted by $\emptyset$ or simply $\{\}$
+When there are no elements in a certain set, this set is **empty**, denoted by $\emptyset$ or simply $\{\}$
 
 ## Sets in Python
 
@@ -149,6 +149,25 @@ Some things to bear in mind when working with sets in Python
 documentations can be found here: 
 https://docs.python.org/2/library/sets.html
 
+## Sets and Set Operations: A Summative Example
+
+To put this all together, let's consider an example with restaurants:
+
+Think about a *set A* with all the restaurants that serve Italian food.
+Next, there is a *set B* with all the restaurants that serve burgers.
+
+The **union** of these sets, *set C*, contains the set of restaurants that either serve Italian food, burgers, or both.
+
+You could say that the **universal set** here, *set U*, contains all the restaurants in the world (with any type of food). Then *set C* is a **subset** of *set U*. 
+
+The **intersection** of *A* and *B* contains the restaurants that serve _both_ Italian food and burgers.
+
+The **relative complement** of *set A* contains the restaurants that serve burgers but _not_ Italian food.
+
+The **absolute complement** of *set A* contains the restaurants that serve *any food* but _no_ Italian food.
+
+
+
 ## Summary
 
-In this section, we started off explaining what sets, subsets and universal sets are. Next, you learned about some elementary such as unions, intersections and complements. After that, we tied all this info together through the inclusion exclusion principle. Finally we talked a little bit about how sets work in Python.
+In this section, you learned about sets, subsets and universal sets. Next, you were introduced to some elementary set operations such as unions, intersections and complements. After that, all this info was tied together through the inclusion exclusion principle. Next, you saw how sets translate into Python. You'll start exploring this in further detail in the next lab!
