@@ -30,13 +30,13 @@ $x = 9$ means that $x\notin S$ because $x$ is not an even number.
 
 ## Subsets
 
-Set $T$ is a subset of set $S$ if *every element* in set $T$ is also in set $S$. The mathematical notation for a subset is $T \subset S$. 
+Set $T$ is a subset of set $S$ if *every element* in set $T$ is also in set $S$. The mathematical notation for a *proper subset* is $T \subset S$. 
 
-Note how this particular definition doesn't require $S$ and $T$ to be different. In fact you could argue that a special case of a subset is where $T = S$! In this case, however, not only is $T \subset S$, but it is also true that $S \subset T$. T is defined as a *proper subset* of S if T and S are not equal, this is sometimes also denoted by $T \subsetneq S$. 
+This particular definition requires $S$ and $T$ to be different. We say that $S$ is a *proper subset* of T, so $S$ and $T$ cannot be the same.
 
-To avoid any confusion regarding whether $T$ is a proper subset of $S$ or not, you can use $T \subsetneq S$ and $T \subseteq S$ instead of the more ambiguous $\subset$.
+The symbol for a (not-proper) subset is: $T \subseteq S$, Using this notation, $S$ is allowed to be equal to $T$. 
 
-**Example**: If S is the set of even numbers, set $T = {2, 6, 22}$ is a proper subset of $S$. Formally, you can write this as $T \subsetneq S$, or more ambiguously, $T \subset S$.
+**Example**: If S is the set of even numbers, set $T = \{2, 6, 22\}$ is a proper subset of $S$. Formally, you can write this as $T \subset S$. $T \subseteq S$ is also correct in this case!
 
 ## Universal Sets
 
@@ -131,7 +131,7 @@ $\mid S \cup T\cup R \mid = \mid S \mid + \mid T \mid + \mid R \mid - \mid S \ca
 
 
 
-<img src="images/venn_diag.png" width="350"/>
+<img src="images/venn_diagram.png" width="350"/>
 
 ## Empty Sets
 
