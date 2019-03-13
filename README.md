@@ -79,7 +79,7 @@ The intersection of two sets $S$ and $T$ is the set that contains all elements o
 
 Applied to our example, the intersection of $S$ and $T$ is given by {6}, so it contains the elements that are multiples of both 2 AND 3.
 
-In mathematical terms, the union of $S$ and $T$ is denoted as $S \cap T$.
+In mathematical terms, the intersection of $S$ and $T$ is denoted as $S \cap T$.
 
 <img src="images/intersection.png" width="250"/>
 
