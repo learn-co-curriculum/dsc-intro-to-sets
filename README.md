@@ -30,11 +30,9 @@ $x = 9$ means that $x\notin S$ because $x$ is not an even number.
 
 ## Subsets
 
-Set $T$ is a subset of set $S$ if *every element* in set $T$ is also in set $S$. The mathematical notation for a *proper subset* is $T \subset S$. 
+Set $T$ is a subset of set $S$ if *every element* in set $T$ is also in set $S$. The mathematical notation for a subset is $T \subseteq S$. 
 
-This particular definition requires $S$ and $T$ to be different. We say that $S$ is a *proper subset* of T, so $S$ and $T$ cannot be the same.
-
-The symbol for a (not-proper) subset is: $T \subseteq S$, Using this notation, $S$ is allowed to be equal to $T$. 
+Typically, you'll be more interested in *proper subsets*. All proper subsets are subsets. The only difference between subsets and proper subsets is that a subset can technically be the entire set. In other words, if A = {1,2,3} and B = {1,2,3} A is subset of B. If C = {1,2} then C is both a subset and proper subset of A. C is also a subset and proper subset of B. The mathematical notation for proper subsets is : $ C \subset A $
 
 **Example**: If S is the set of even numbers, set $T = \{2, 6, 22\}$ is a proper subset of $S$. Formally, you can write this as $T \subset S$. $T \subseteq S$ is also correct in this case!
 
@@ -71,7 +69,7 @@ In mathematical terms, the union of $S$ and $T$ is denoted as $S \cup T$
 
 A popular way to represent sets and their relationships is through Venn Diagrams, (https://en.wikipedia.org/wiki/Venn_diagram), see picture below!
 
-<img src="images/union.png" width="250"/>
+<img src="images/new_union.png" width="250"/>
 
 ### b) Intersection of Two Sets 
 
@@ -81,7 +79,7 @@ Applied to our example, the intersection of $S$ and $T$ is given by {6}, so it c
 
 In mathematical terms, the intersection of $S$ and $T$ is denoted as $S \cap T$.
 
-<img src="images/intersection.png" width="250"/>
+<img src="images/new_intersection.png" width="250"/>
 
 ### c) Relative Complement or the Difference
 
@@ -89,7 +87,7 @@ If you have S and T, the relative complement of S contains all the elements of T
 
 In this case, the relative complement of S (or $ T\backslash S $) is $\{2,4,8\}$. The relative complement of T (or $ S\backslash T $) is $\{3,9,12\}$.
 
-<img src="images/rel_comp.png" width="250"/>
+<img src="images/new_rel_comp.png" width="250"/>
 
 ### d) Absolute Complement
 
@@ -108,7 +106,7 @@ s assume this set contains the multiples of both 2 and 3 until 20. Then the elem
 
 The absolute component of $S$ (so $S'$ or $S^c$) is then given by $\{2,4,8,10,14,15,16,18,20\}$.
 
-<img src="images/abs_comp.png" width="250"/>
+<img src="images/new_abs_comp.png" width="250"/>
 
 ## Inclusion Exclusion Principle
 
@@ -131,7 +129,7 @@ $\mid S \cup T\cup R \mid = \mid S \mid + \mid T \mid + \mid R \mid - \mid S \ca
 
 
 
-<img src="images/venn_diagram.png" width="350"/>
+<img src="images/new_venn_diagram.png" width="350"/>
 
 ## Empty Sets
 
@@ -170,3 +168,8 @@ The **absolute complement** of *set A* contains the restaurants that serve *any 
 ## Summary
 
 In this section, you learned about sets, subsets and universal sets. Next, you were introduced to some elementary set operations such as unions, intersections and complements. After that, all this info was tied together through the inclusion exclusion principle. Next, you saw how sets translate into Python. You'll start exploring this in further detail in the next lab!
+
+
+```python
+
+```
