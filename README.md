@@ -3,7 +3,7 @@
 
 ## Introduction
 
-You have definitely heard of sets before. In this section, however, you will learn about a formal definition of sets, which will serve as a foundation for everything related to probability and combinatorics!
+You have definitely heard of sets before. In this section, however, you will learn about the formal definition of sets, which will serve as a foundation for everything related to probability and combinatorics!
 
 ## Objectives
 
@@ -11,8 +11,8 @@ You will be able to:
 
 - Understand what a set is
 - Define a universal set and subsets
-- Learn about sets unions, intersections, complements
-- Learn how to use Venn Diagrams to understand about the relationships between sets
+- Learn about unions, intersections, and complements
+- Learn how to use Venn Diagrams to understand the relationships between sets
 
 
 ## What is a Set? 
@@ -45,7 +45,7 @@ Example of a universal set: all the possible outcomes when rolling a dice.
 
 $\Omega = \{1,2,3,4,5,6\}$
 
-Remember that a universal set is not necessarily all the possible things that have ever existed. typically, a universal set is just all the possible elements within certain bounds, e.g., the set of all countries in the world, the set of all the animal species in the Bronx Zoo,...
+Remember that a universal set is not necessarily all the possible things that have ever existed. Typically, a universal set is just all the possible elements within certain bounds, e.g., the set of all countries in the world, the set of all the animal species in the Bronx Zoo,...
 
 A universal set can have an infinite number of elements, for example, the set of all real numbers!
 
@@ -112,7 +112,7 @@ The absolute component of $S$ (so $S'$ or $S^c$) is then given by $\{2,4,8,10,14
 
 Note that if you want to know how many elements are in set $S$ versus $T$, you can't simply sum up the elements, because they have elements in common.
 
-In combinational mathematics, the inclusion-exclusion principle is a counting technique solve this problem.
+In combinational mathematics, the inclusion-exclusion principle is a counting technique that solves this problem.
 
 When having 2 sets, the method for obtaining the union of two finite sets is given by:
 
@@ -120,7 +120,7 @@ $\mid S \cup T \mid = \mid S \mid + \mid T \mid - \mid S \cap T \mid $
 
 Where the horizontal lines denote the *cardinality* of a set, which is the number of elements, considering a finite set. 
 
-The formula expresses the fact that the sum of the sizes of the two sets may be too large since some elements may be counted twice. For the double-counted elements, one is substracted again.
+The formula expresses the fact that the sum of the sizes of the two sets may be too large since some elements may be counted twice. For the double-counted elements, one is subtracted again.
 
 This formula can be extended to three sets, four sets, etc. Imagine you have a third set $R$:
 
@@ -143,7 +143,7 @@ Some things to bear in mind when working with sets in Python
 * Sets are iterable.
 * Sets are collections of lower level python objects (just like lists or dictionaries).
 
-documentations can be found here: 
+Documentation can be found here: 
 https://docs.python.org/2/library/sets.html
 
 ## Sets and Set Operations: A Summative Example
@@ -153,7 +153,7 @@ To put this all together, let's consider an example with restaurants:
 Think about a *set A* with all the restaurants that serve Italian food.
 Next, there is a *set B* with all the restaurants that serve burgers.
 
-The **union** of these sets, *set C*, contains the set of restaurants that either serve Italian food, burgers, or both.
+The **union** of these sets, *set C*, contains the set of restaurants that either serve Italian food, burgers or both.
 
 You could say that the **universal set** here, *set U*, contains all the restaurants in the world (with any type of food). Then *set C* is a **subset** of *set U*. 
 
@@ -167,9 +167,4 @@ The **absolute complement** of *set A* contains the restaurants that serve *any 
 
 ## Summary
 
-In this section, you learned about sets, subsets and universal sets. Next, you were introduced to some elementary set operations such as unions, intersections and complements. After that, all this info was tied together through the inclusion exclusion principle. Next, you saw how sets translate into Python. You'll start exploring this in further detail in the next lab!
-
-
-```python
-
-```
+In this section, you learned about sets, subsets and universal sets. Next, you were introduced to some elementary set operations such as unions, intersections, and complements. After that, all this info was tied together through the inclusion exclusion principle. Next, you saw how sets translate into Python. You'll start exploring this in further detail in the next lab!
