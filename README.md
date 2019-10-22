@@ -135,14 +135,13 @@ When there are no elements in a certain set, this set is **empty**, denoted by $
 
 ## Sets in Python
 
-Some things to bear in mind when working with sets in Python
+Some things to bear in mind when working with sets in Python:
 
 * Sets are unordered collections of unique elements.
 * Sets are iterable.
 * Sets are collections of lower level python objects (just like lists or dictionaries).
 
-Documentation can be found here: 
-https://docs.python.org/2/library/sets.html
+Documentation for sets in Python can be found here: [Sets](https://docs.python.org/3.6/library/stdtypes.html#set-types-set-frozenset)
 
 ## Sets and Set Operations: A Summative Example
 
