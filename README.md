@@ -9,23 +9,24 @@ You have definitely heard of sets before. In this section, however, you will lea
 
 You will be able to: 
 
-- Understand what a set is
-- Define a universal set and subsets
-- Learn about unions, intersections, and complements
-- Learn how to use Venn Diagrams to understand the relationships between sets
+* Define a set in the context of probability theory
+* Define a universal set and subsets
+* Describe the process of making unions, intersections, and complements
+* Use Venn Diagrams to visually demonstrate set operations
+* Describe the inclusion-exclusion principle
 
 
 ## What is a Set? 
 
-In probability theory, a set is denoted as a *well-defined collection of objects*. 
+In probability theory, a set is defined as a *well-defined collection of objects*. 
 
-Mathematically, you can define a set by $S$. If an element $x$ belongs to a set $S$, then you'd write $x \in S$. On the other hand, if $x$ does not belong to a set $S$, then you'd write $x\notin S$.
+Mathematically, you can denote a set by $S$. If an element $x$ belongs to a set $S$, then you'd write $x \in S$. On the other hand, if $x$ does not belong to a set $S$, then you'd write $x\notin S$.
 
-Example: If $S$ is defined as the set of even numbers, then
+Example: If $S$ is defined as the set of even numbers, then:
 
-$x = 2$ means that $x\in S$ because $x$ is an even number.
+* If $x = 2$, $x\in S$ because $x$ is an even number.
 
-$x = 9$ means that $x\notin S$ because $x$ is not an even number.
+* If $x = 9$, $x\notin S$ because $x$ is not an even number.
 
 
 ## Subsets
@@ -41,11 +42,11 @@ Typically, you'll be more interested in *proper subsets*. All proper subsets are
 The collection of all possible outcomes in a certain context or universe is called the **universal set**.
 A universal set is often denoted by $\Omega$.
 
-Example of a universal set: all the possible outcomes when rolling a dice.
+Example of a universal set: All the possible outcomes when rolling a dice.
 
 $\Omega = \{1,2,3,4,5,6\}$
 
-Remember that a universal set is not necessarily all the possible things that have ever existed. Typically, a universal set is just all the possible elements within certain bounds, e.g., the set of all countries in the world, the set of all the animal species in the Bronx Zoo,...
+Remember that a universal set is not necessarily all the possible things that have ever existed. Typically, a universal set is just all the possible elements within certain bounds, e.g., the set of all countries in the world, the set of all the animal species in the Bronx Zoo, etc.
 
 A universal set can have an infinite number of elements, for example, the set of all real numbers!
 
@@ -61,11 +62,11 @@ $ T = \{2,4,6,8\} $.
 
 ### a) Union of Two Sets
 
-The union of 2 sets $S$ and $T$ is the set of elements of either S or T, or in both.  
+The union of two sets $S$ and $T$ is the set of elements of either S or T, or in both.  
 
 Applied to our example, the union of $S$ and $T$ is given by the elements $\{2,3,4,6,8,9,12\}$. 
 
-In mathematical terms, the union of $S$ and $T$ is denoted as $S \cup T$
+In mathematical terms, the union of $S$ and $T$ is denoted as $S \cup T$.
 
 A popular way to represent sets and their relationships is through Venn Diagrams, (https://en.wikipedia.org/wiki/Venn_diagram), see picture below!
 
@@ -95,38 +96,35 @@ There is another definition of the complement when considering universal sets $\
 
 The absolute complement of $S$, with respect to the Universal set $\Omega$, is the collection of the objects in $\Omega$ that don't belong to $S$.
 
-Note how the definition of $\Omega$ is very important here. Imagine a set $S= \{\text{elephant, alligator, tiger, bear}\}$. The complement of this set will depend on how the universal set is defined. E.g. is $\Omega$ equal to *the animals in the Bronx Zoo*, or perhaps *the 20 most deadly animals in the world*?
+Note how the definition of $\Omega$ is very important here. Imagine a set $S= \{\text{elephant, alligator, tiger, bear}\}$. The complement of this set will depend on how the universal set is defined: Is $\Omega$ equal to *the animals in the Bronx Zoo*, or *the 20 most deadly animals in the world*?
 
 Mathematically, the absolute complement of $S$ is denoted as $S'$ or $S^c$.
 
 Let's reconsider $S$ and $T$ as defined previously.
 
-Let's define $\Omega$ the universal set (denoted by the box around the two venn diagrams), and let
-s assume this set contains the multiples of both 2 and 3 until 20. Then the elements of $\Omega$ are $\{2,3,4,6,8,9,10,12,14,15,16,18,20\}$. 
+Let's define $\Omega$, the universal set (denoted by the box around the two Venn diagrams), as the set that contains the multiples of both 2 and 3 until 20. Then the elements of $\Omega$ are $\{2,3,4,6,8,9,10,12,14,15,16,18,20\}$. 
 
-The absolute component of $S$ (so $S'$ or $S^c$) is then given by $\{2,4,8,10,14,15,16,18,20\}$.
+The absolute complement of $S$ (so, $S'$ or $S^c$) is then given by $\{2,4,8,10,14,15,16,18,20\}$.
 
 <img src="images/new_abs_comp.png" width="250"/>
 
-## Inclusion Exclusion Principle
+## Inclusion-Exclusion Principle
 
 Note that if you want to know how many elements are in set $S$ versus $T$, you can't simply sum up the elements, because they have elements in common.
 
 In combinational mathematics, the inclusion-exclusion principle is a counting technique that solves this problem.
 
-When having 2 sets, the method for obtaining the union of two finite sets is given by:
+When having two sets, the method for counting the number of elements in the union of two finite sets is given by:
 
-$\mid S \cup T \mid = \mid S \mid + \mid T \mid - \mid S \cap T \mid $
+$\mid S \cup T \mid = \mid S \mid + \mid T \mid - \mid S \cap T \mid $,
 
-Where the horizontal lines denote the *cardinality* of a set, which is the number of elements, considering a finite set. 
+where the horizontal lines denote the *cardinality* of a set, which is the number of elements in the set, considering a set with a finite number of elements. 
 
 The formula expresses the fact that the sum of the sizes of the two sets may be too large since some elements may be counted twice. For the double-counted elements, one is subtracted again.
 
-This formula can be extended to three sets, four sets, etc. Imagine you have a third set $R$:
+This formula can be extended to three sets, four sets, etc. For example, imagine you have a third set $R$. The number of elements in the union of three finite sets is given by:
 
 $\mid S \cup T\cup R \mid = \mid S \mid + \mid T \mid + \mid R \mid - \mid S \cap T \mid  -\mid S \cap R \mid - \mid R \cap T \mid  + \mid S \cap T \cap R \mid $
-
-
 
 
 <img src="images/new_venn_diagram.png" width="350"/>
@@ -167,4 +165,4 @@ The **absolute complement** of *set A* contains the restaurants that serve *any 
 
 ## Summary
 
-In this section, you learned about sets, subsets and universal sets. Next, you were introduced to some elementary set operations such as unions, intersections, and complements. After that, all this info was tied together through the inclusion exclusion principle. Next, you saw how sets translate into Python. You'll start exploring this in further detail in the next lab!
+In this section, you learned about sets, subsets, and universal sets. Next, you were introduced to some elementary set operations such as unions, intersections, and complements. After that, all this information was tied together through the inclusion-exclusion principle. Next, you saw how sets translate into Python. You'll start exploring this in further detail in the next lab!
