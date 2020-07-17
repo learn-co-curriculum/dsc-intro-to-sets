@@ -20,22 +20,21 @@ You will be able to:
 
 In probability theory, a set is defined as a *well-defined collection of objects*. 
 
-Mathematically, you can denote a set by $S$. If an element $x$ belongs to a set $S$, then you'd write $x \in S$. On the other hand, if $x$ does not belong to a set $S$, then you'd write $x\notin S$.
+Mathematically, you can denote a set by <img src="https://render.githubusercontent.com/render/math?math=S">. If an element <img src="https://render.githubusercontent.com/render/math?math=x"> belongs to a set <img src="https://render.githubusercontent.com/render/math?math=S">, then you'd write <img src="https://render.githubusercontent.com/render/math?math=x \in S">. On the other hand, if <img src="https://render.githubusercontent.com/render/math?math=x">  does not belong to a set <img src="https://render.githubusercontent.com/render/math?math=S">, then you'd write <img src="https://render.githubusercontent.com/render/math?math=x \notin S">.
 
-Example: If $S$ is defined as the set of even numbers, then:
+Example: If <img src="https://render.githubusercontent.com/render/math?math=S"> is defined as the set of even numbers, then:
 
-* If $x = 2$, $x\in S$ because $x$ is an even number.
+* If <img src="https://render.githubusercontent.com/render/math?math=x = 2">, <img src="https://render.githubusercontent.com/render/math?math=x\in S"> because <img src="https://render.githubusercontent.com/render/math?math=x"> is an even number.
 
-* If $x = 9$, $x\notin S$ because $x$ is not an even number.
-
+* If <img src="https://render.githubusercontent.com/render/math?math=x = 9">, <img src="https://render.githubusercontent.com/render/math?math=x\notin S"> because <img src="https://render.githubusercontent.com/render/math?math=x"> is not an even number.
 
 ## Subsets
 
-Set $T$ is a subset of set $S$ if *every element* in set $T$ is also in set $S$. The mathematical notation for a subset is $T \subseteq S$. 
+Set <img src="https://render.githubusercontent.com/render/math?math=T"> is a subset of set <img src="https://render.githubusercontent.com/render/math?math=S"> if *every element* in set <img src="https://render.githubusercontent.com/render/math?math=T"> is also in set <img src="https://render.githubusercontent.com/render/math?math=S">. The mathematical notation for a subset is <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S">. 
 
-Typically, you'll be more interested in *proper subsets*. All proper subsets are subsets. The only difference between subsets and proper subsets is that a subset can technically be the entire set. In other words, if A = {1,2,3} and B = {1,2,3} A is subset of B. If C = {1,2} then C is both a subset and proper subset of A. C is also a subset and proper subset of B. The mathematical notation for proper subsets is : $ C \subset A $
+Typically, you'll be more interested in *proper subsets*. All proper subsets are subsets. The only difference between subsets and proper subsets is that a subset can technically be the entire set. In other words, if A = {1,2,3} and B = {1,2,3} A is subset of B. If C = {1,2} then C is both a subset and proper subset of A. C is also a subset and proper subset of B. The mathematical notation for proper subsets is : <img src="https://render.githubusercontent.com/render/math?math=C \subset A">
 
-**Example**: If S is the set of even numbers, set $T = \{2, 6, 22\}$ is a proper subset of $S$. Formally, you can write this as $T \subset S$. $T \subseteq S$ is also correct in this case!
+**Example**: If S is the set of even numbers, set <img src="https://render.githubusercontent.com/render/math?math=T = \{2, 6, 22\}"> is a proper subset of <img src="https://render.githubusercontent.com/render/math?math=S">. Formally, you can write this as <img src="https://render.githubusercontent.com/render/math?math=T \subset S">. <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S"> is also correct in this case!
 
 ## Universal Sets
 
