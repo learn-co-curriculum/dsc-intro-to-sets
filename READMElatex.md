@@ -31,11 +31,11 @@ Example: If <img src="https://render.githubusercontent.com/render/math?math=S"> 
 
 ## Subsets
 
-Set <img src="https://render.githubusercontent.com/render/math?math=T"> is a subset of set <img src="https://render.githubusercontent.com/render/math?math=S"> if *every element* in set <img src="https://render.githubusercontent.com/render/math?math=T"> is also in set <img src="https://render.githubusercontent.com/render/math?math=S">. The mathematical notation for a subset is <img src="https://render.githubusercontent.com/render/math?math=T  \subseteq S">. 
+Set <img src="https://render.githubusercontent.com/render/math?math=T"> is a subset of set <img src="https://render.githubusercontent.com/render/math?math=S"> if *every element* in set <img src="https://render.githubusercontent.com/render/math?math=T"> is also in set <img src="https://render.githubusercontent.com/render/math?math=S">. The mathematical notation for a subset is <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S">. 
 
 Typically, you'll be more interested in *proper subsets*. All proper subsets are subsets. The only difference between subsets and proper subsets is that a subset can technically be the entire set. In other words, if A = {1,2,3} and B = {1,2,3} A is subset of B. If C = {1,2} then C is both a subset and proper subset of A. C is also a subset and proper subset of B. The mathematical notation for proper subsets is : <img src="https://render.githubusercontent.com/render/math?math= C \subset A ">
 
-**Example**: If S is the set of even numbers, set <img src="https://render.githubusercontent.com/render/math?math=T =\{2, 6, 22\}"> is a proper subset of <img src="https://render.githubusercontent.com/render/math?math=S">. Formally, you can write this as <img src="https://render.githubusercontent.com/render/math?math=T \subset S">. <img src="https://render.githubusercontent.com/render/math?math=T  \subseteq S"> is also correct in this case!
+**Example**: If S is the set of even numbers, set <img src="https://render.githubusercontent.com/render/math?math=T =\{2, 6, 22\}"> is a proper subset of <img src="https://render.githubusercontent.com/render/math?math=S">. Formally, you can write this as <img src="https://render.githubusercontent.com/render/math?math=T \subset S">. <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S"> is also correct in this case!
 
 ## Universal Sets
 
