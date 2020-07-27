@@ -84,9 +84,9 @@ In mathematical terms, the intersection of <img src="https://render.githubuserco
 
 ### c) Relative Complement or the Difference
 
-If you have S and T, the relative complement of S contains all the elements of T that are NOT in S. This is also sometimes referred to as the *difference*. The difference is denoted by <img src="https://render.githubusercontent.com/render/math?math= T\backslash S "> or <img src="https://render.githubusercontent.com/render/math?math=T-S">.
+If you have S and T, the relative complement of S contains all the elements of T that are NOT in S. This is also sometimes referred to as the *difference*. The difference is denoted by <img src="https://render.githubusercontent.com/render/math?math= T \backslash S "> or <img src="https://render.githubusercontent.com/render/math?math=T-S">.
 
-In this case, the relative complement of S (or <img src="https://render.githubusercontent.com/render/math?math= T\backslash S ">) is <img src="https://render.githubusercontent.com/render/math?math=\{2,4,8\}">. The relative complement of T (or <img src="https://render.githubusercontent.com/render/math?math= S\backslash T ">) is <img src="https://render.githubusercontent.com/render/math?math=\{3,9,12\}">.
+In this case, the relative complement of S (or <img src="https://render.githubusercontent.com/render/math?math= T \backslash S ">) is <img src="https://render.githubusercontent.com/render/math?math=\{2,4,8\}">. The relative complement of T (or <img src="https://render.githubusercontent.com/render/math?math= S \backslash T ">) is <img src="https://render.githubusercontent.com/render/math?math=\{3,9,12\}">.
 
 <img src="images/new_rel_comp.png" width="250"/>
 
