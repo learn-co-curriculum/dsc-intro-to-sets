@@ -20,22 +20,22 @@ You will be able to:
 
 In probability theory, a set is defined as a *well-defined collection of objects*. 
 
-Mathematically, you can denote a set by <img src="https://render.githubusercontent.com/render/math?math=S">. If an element <img src="https://render.githubusercontent.com/render/math?math=x"> belongs to a set <img src="https://render.githubusercontent.com/render/math?math=S">, then you'd write <img src="https://render.githubusercontent.com/render/math?math=x\in S">. On the other hand, if <img src="https://render.githubusercontent.com/render/math?math=x"> does not belong to a set <img src="https://render.githubusercontent.com/render/math?math=S">, then you'd write <img src="https://render.githubusercontent.com/render/math?math=x\notin S">.
+Mathematically, you can denote a set by <img src="https://render.githubusercontent.com/render/math?math=S">. If an element <img src="https://render.githubusercontent.com/render/math?math=x">belongs to a set <img src="https://render.githubusercontent.com/render/math?math=S">, then you'd write <img src="https://render.githubusercontent.com/render/math?math=x\in S">. On the other hand, if <img src="https://render.githubusercontent.com/render/math?math=x">does not belong to a set <img src="https://render.githubusercontent.com/render/math?math=S">, then you'd write <img src="https://render.githubusercontent.com/render/math?math=x\notin S">.
 
-Example: If <img src="https://render.githubusercontent.com/render/math?math=S"> is defined as the set of even numbers, then:
+Example: If <img src="https://render.githubusercontent.com/render/math?math=S">is defined as the set of even numbers, then:
 
-* If <img src="https://render.githubusercontent.com/render/math?math=x = 2">, <img src="https://render.githubusercontent.com/render/math?math=x\in S"> because <img src="https://render.githubusercontent.com/render/math?math=x"> is an even number.
+* If <img src="https://render.githubusercontent.com/render/math?math=x = 2">, <img src="https://render.githubusercontent.com/render/math?math=x\in S">because <img src="https://render.githubusercontent.com/render/math?math=x">is an even number.
 
-* If <img src="https://render.githubusercontent.com/render/math?math=x = 9">, <img src="https://render.githubusercontent.com/render/math?math=x\notin S"> because <img src="https://render.githubusercontent.com/render/math?math=x"> is not an even number.
+* If <img src="https://render.githubusercontent.com/render/math?math=x = 9">, <img src="https://render.githubusercontent.com/render/math?math=x\notin S">because <img src="https://render.githubusercontent.com/render/math?math=x">is not an even number.
 
 
 ## Subsets
 
-Set <img src="https://render.githubusercontent.com/render/math?math=T"> is a subset of set <img src="https://render.githubusercontent.com/render/math?math=S"> if *every element* in set <img src="https://render.githubusercontent.com/render/math?math=T"> is also in set <img src="https://render.githubusercontent.com/render/math?math=S">. The mathematical notation for a subset is <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S">. 
+Set <img src="https://render.githubusercontent.com/render/math?math=T">is a subset of set <img src="https://render.githubusercontent.com/render/math?math=S">if *every element* in set <img src="https://render.githubusercontent.com/render/math?math=T">is also in set <img src="https://render.githubusercontent.com/render/math?math=S">. The mathematical notation for a subset is <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S">. 
 
-Typically, you'll be more interested in *proper subsets*. All proper subsets are subsets. The only difference between subsets and proper subsets is that a subset can technically be the entire set. In other words, if A = {1,2,3} and B = {1,2,3} A is subset of B. If C = {1,2} then C is both a subset and proper subset of A. C is also a subset and proper subset of B. The mathematical notation for proper subsets is : <img src="https://render.githubusercontent.com/render/math?math= C \subset A ">
+Typically, you'll be more interested in *proper subsets*. All proper subsets are subsets. The only difference between subsets and proper subsets is that a subset can technically be the entire set. In other words, if A = {1,2,3} and B = {1,2,3} A is subset of B. If C = {1,2} then C is both a subset and proper subset of A. C is also a subset and proper subset of B. The mathematical notation for proper subsets is : <img src="https://render.githubusercontent.com/render/math?math=C \subset A ">
 
-**Example**: If S is the set of even numbers, set <img src="https://render.githubusercontent.com/render/math?math=T =\{2, 6, 22\}"> is a proper subset of <img src="https://render.githubusercontent.com/render/math?math=S">. Formally, you can write this as <img src="https://render.githubusercontent.com/render/math?math=T \subset S">. <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S"> is also correct in this case!
+**Example**: If S is the set of even numbers, set <img src="https://render.githubusercontent.com/render/math?math=T =\{2, 6, 22\}">is a proper subset of <img src="https://render.githubusercontent.com/render/math?math=S">. Formally, you can write this as <img src="https://render.githubusercontent.com/render/math?math=T \subset S">. <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S">is also correct in this case!
 
 ## Universal Sets
 
@@ -54,19 +54,19 @@ A universal set can have an infinite number of elements, for example, the set of
 
 Next, let's talk about set operations. Imagine you have two sets of numbers, say the first 4 multiples of 3 in set <img src="https://render.githubusercontent.com/render/math?math=S">:
 
-<img src="https://render.githubusercontent.com/render/math?math= S =\{3,6,9,12\}">
+<img src="https://render.githubusercontent.com/render/math?math=S =\{3,6,9,12\}">
 
 and the first 4 multiples of 2 in set <img src="https://render.githubusercontent.com/render/math?math=T">:
 
-<img src="https://render.githubusercontent.com/render/math?math= T =\{2,4,6,8\} ">.
+<img src="https://render.githubusercontent.com/render/math?math=T =\{2,4,6,8\} ">.
 
 ### a) Union of Two Sets
 
-The union of two sets <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is the set of elements of either S or T, or in both.  
+The union of two sets <img src="https://render.githubusercontent.com/render/math?math=S">and <img src="https://render.githubusercontent.com/render/math?math=T">is the set of elements of either S or T, or in both.  
 
-Applied to our example, the union of <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is given by the elements <img src="https://render.githubusercontent.com/render/math?math=\{2,3,4,6,8,9,12\}">. 
+Applied to our example, the union of <img src="https://render.githubusercontent.com/render/math?math=S">and <img src="https://render.githubusercontent.com/render/math?math=T">is given by the elements <img src="https://render.githubusercontent.com/render/math?math=\{2,3,4,6,8,9,12\}">. 
 
-In mathematical terms, the union of <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is denoted as <img src="https://render.githubusercontent.com/render/math?math=S \cup T">.
+In mathematical terms, the union of <img src="https://render.githubusercontent.com/render/math?math=S">and <img src="https://render.githubusercontent.com/render/math?math=T">is denoted as <img src="https://render.githubusercontent.com/render/math?math=S \cup T">.
 
 A popular way to represent sets and their relationships is through Venn Diagrams, (https://en.wikipedia.org/wiki/Venn_diagram), see picture below!
 
@@ -74,43 +74,43 @@ A popular way to represent sets and their relationships is through Venn Diagrams
 
 ### b) Intersection of Two Sets 
 
-The intersection of two sets <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is the set that contains all elements of <img src="https://render.githubusercontent.com/render/math?math=S"> that also belong to <img src="https://render.githubusercontent.com/render/math?math=T">. 
+The intersection of two sets <img src="https://render.githubusercontent.com/render/math?math=S">and <img src="https://render.githubusercontent.com/render/math?math=T">is the set that contains all elements of <img src="https://render.githubusercontent.com/render/math?math=S">that also belong to <img src="https://render.githubusercontent.com/render/math?math=T">. 
 
-Applied to our example, the intersection of <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is given by {6}, so it contains the elements that are multiples of both 2 AND 3.
+Applied to our example, the intersection of <img src="https://render.githubusercontent.com/render/math?math=S">and <img src="https://render.githubusercontent.com/render/math?math=T">is given by {6}, so it contains the elements that are multiples of both 2 AND 3.
 
-In mathematical terms, the intersection of <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is denoted as <img src="https://render.githubusercontent.com/render/math?math=S \cap T">.
+In mathematical terms, the intersection of <img src="https://render.githubusercontent.com/render/math?math=S">and <img src="https://render.githubusercontent.com/render/math?math=T">is denoted as <img src="https://render.githubusercontent.com/render/math?math=S \cap T">.
 
 <img src="images/new_intersection.png" width="250"/>
 
 ### c) Relative Complement or the Difference
 
-If you have S and T, the relative complement of S contains all the elements of T that are NOT in S. This is also sometimes referred to as the *difference*. The difference is denoted by <img src="https://render.githubusercontent.com/render/math?math= T\backslash S "> or <img src="https://render.githubusercontent.com/render/math?math=T-S">.
+If you have S and T, the relative complement of S contains all the elements of T that are NOT in S. This is also sometimes referred to as the *difference*. The difference is denoted by <img src="https://render.githubusercontent.com/render/math?math=T\backslash S ">or <img src="https://render.githubusercontent.com/render/math?math=T-S">.
 
-In this case, the relative complement of S (or <img src="https://render.githubusercontent.com/render/math?math= T\backslash S ">) is <img src="https://render.githubusercontent.com/render/math?math=\{2,4,8\}">. The relative complement of T (or <img src="https://render.githubusercontent.com/render/math?math= S\backslash T ">) is <img src="https://render.githubusercontent.com/render/math?math=\{3,9,12\}">.
+In this case, the relative complement of S (or <img src="https://render.githubusercontent.com/render/math?math=T\backslash S ">) is <img src="https://render.githubusercontent.com/render/math?math=\{2,4,8\}">. The relative complement of T (or <img src="https://render.githubusercontent.com/render/math?math=S\backslash T ">) is <img src="https://render.githubusercontent.com/render/math?math=\{3,9,12\}">.
 
 <img src="images/new_rel_comp.png" width="250"/>
 
 ### d) Absolute Complement
 
-There is another definition of the complement when considering universal sets <img src="https://render.githubusercontent.com/render/math?math=\Omega"> as well. In this context, we're talking about the *absolute complement*.
+There is another definition of the complement when considering universal sets <img src="https://render.githubusercontent.com/render/math?math=\Omega">as well. In this context, we're talking about the *absolute complement*.
 
-The absolute complement of <img src="https://render.githubusercontent.com/render/math?math=S">, with respect to the Universal set <img src="https://render.githubusercontent.com/render/math?math=\Omega">, is the collection of the objects in <img src="https://render.githubusercontent.com/render/math?math=\Omega"> that don't belong to <img src="https://render.githubusercontent.com/render/math?math=S">.
+The absolute complement of <img src="https://render.githubusercontent.com/render/math?math=S">, with respect to the Universal set <img src="https://render.githubusercontent.com/render/math?math=\Omega">, is the collection of the objects in <img src="https://render.githubusercontent.com/render/math?math=\Omega">that don't belong to <img src="https://render.githubusercontent.com/render/math?math=S">.
 
-Note how the definition of <img src="https://render.githubusercontent.com/render/math?math=\Omega"> is very important here. Imagine a set <img src="https://render.githubusercontent.com/render/math?math=S=\{\text{elephant, alligator, tiger, bear}\}">. The complement of this set will depend on how the universal set is defined: Is <img src="https://render.githubusercontent.com/render/math?math=\Omega"> equal to *the animals in the Bronx Zoo*, or *the 20 most deadly animals in the world*?
+Note how the definition of <img src="https://render.githubusercontent.com/render/math?math=\Omega">is very important here. Imagine a set <img src="https://render.githubusercontent.com/render/math?math=S=\{\text{elephant, alligator, tiger, bear}\}">. The complement of this set will depend on how the universal set is defined: Is <img src="https://render.githubusercontent.com/render/math?math=\Omega">equal to *the animals in the Bronx Zoo*, or *the 20 most deadly animals in the world*?
 
-Mathematically, the absolute complement of <img src="https://render.githubusercontent.com/render/math?math=S"> is denoted as <img src="https://render.githubusercontent.com/render/math?math=S'"> or <img src="https://render.githubusercontent.com/render/math?math=S^c">.
+Mathematically, the absolute complement of <img src="https://render.githubusercontent.com/render/math?math=S">is denoted as <img src="https://render.githubusercontent.com/render/math?math=S'">or <img src="https://render.githubusercontent.com/render/math?math=S^c">.
 
-Let's reconsider <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> as defined previously.
+Let's reconsider <img src="https://render.githubusercontent.com/render/math?math=S">and <img src="https://render.githubusercontent.com/render/math?math=T">as defined previously.
 
-Let's define <img src="https://render.githubusercontent.com/render/math?math=\Omega">, the universal set (denoted by the box around the two Venn diagrams), as the set that contains the multiples of both 2 and 3 until 20. Then the elements of <img src="https://render.githubusercontent.com/render/math?math=\Omega"> are <img src="https://render.githubusercontent.com/render/math?math=\{2,3,4,6,8,9,10,12,14,15,16,18,20\}">. 
+Let's define <img src="https://render.githubusercontent.com/render/math?math=\Omega">, the universal set (denoted by the box around the two Venn diagrams), as the set that contains the multiples of both 2 and 3 until 20. Then the elements of <img src="https://render.githubusercontent.com/render/math?math=\Omega">are <img src="https://render.githubusercontent.com/render/math?math=\{2,3,4,6,8,9,10,12,14,15,16,18,20\}">. 
 
-The absolute complement of <img src="https://render.githubusercontent.com/render/math?math=S"> (so, <img src="https://render.githubusercontent.com/render/math?math=S'"> or <img src="https://render.githubusercontent.com/render/math?math=S^c">) is then given by <img src="https://render.githubusercontent.com/render/math?math=\{2,4,8,10,14,15,16,18,20\}">.
+The absolute complement of <img src="https://render.githubusercontent.com/render/math?math=S">(so, <img src="https://render.githubusercontent.com/render/math?math=S'">or <img src="https://render.githubusercontent.com/render/math?math=S^c">) is then given by <img src="https://render.githubusercontent.com/render/math?math=\{2,4,8,10,14,15,16,18,20\}">.
 
 <img src="images/new_abs_comp.png" width="250"/>
 
 ## Inclusion-Exclusion Principle
 
-Note that if you want to know how many elements are in set <img src="https://render.githubusercontent.com/render/math?math=S"> versus <img src="https://render.githubusercontent.com/render/math?math=T">, you can't simply sum up the elements, because they have elements in common.
+Note that if you want to know how many elements are in set <img src="https://render.githubusercontent.com/render/math?math=S">versus <img src="https://render.githubusercontent.com/render/math?math=T">, you can't simply sum up the elements, because they have elements in common.
 
 In combinational mathematics, the inclusion-exclusion principle is a counting technique that solves this problem.
 
@@ -131,7 +131,7 @@ This formula can be extended to three sets, four sets, etc. For example, imagine
 
 ## Empty Sets
 
-When there are no elements in a certain set, this set is **empty**, denoted by <img src="https://render.githubusercontent.com/render/math?math=\emptyset"> or simply <img src="https://render.githubusercontent.com/render/math?math=\{\}">
+When there are no elements in a certain set, this set is **empty**, denoted by <img src="https://render.githubusercontent.com/render/math?math=\emptyset">or simply <img src="https://render.githubusercontent.com/render/math?math=\{\}">
 
 ## Sets in Python
 
