@@ -20,31 +20,30 @@ You will be able to:
 
 In probability theory, a set is defined as a *well-defined collection of objects*. 
 
-Mathematically, you can denote a set by $S$. If an element $x$ belongs to a set $S$, then you'd write $x \in S$. On the other hand, if $x$ does not belong to a set $S$, then you'd write $x\notin S$.
+Mathematically, you can denote a set by <img src="https://render.githubusercontent.com/render/math?math=S">. If an element <img src="https://render.githubusercontent.com/render/math?math=x"> belongs to a set <img src="https://render.githubusercontent.com/render/math?math=S">, then you'd write <img src="https://render.githubusercontent.com/render/math?math=x \in S">. On the other hand, if <img src="https://render.githubusercontent.com/render/math?math=x">  does not belong to a set <img src="https://render.githubusercontent.com/render/math?math=S">, then you'd write <img src="https://render.githubusercontent.com/render/math?math=x \notin S">.
 
-Example: If $S$ is defined as the set of even numbers, then:
+Example: If <img src="https://render.githubusercontent.com/render/math?math=S"> is defined as the set of even numbers, then:
 
-* If $x = 2$, $x\in S$ because $x$ is an even number.
+* If <img src="https://render.githubusercontent.com/render/math?math=x = 2">, <img src="https://render.githubusercontent.com/render/math?math=x\in S"> because <img src="https://render.githubusercontent.com/render/math?math=x"> is an even number.
 
-* If $x = 9$, $x\notin S$ because $x$ is not an even number.
-
+* If <img src="https://render.githubusercontent.com/render/math?math=x = 9">, <img src="https://render.githubusercontent.com/render/math?math=x\notin S"> because <img src="https://render.githubusercontent.com/render/math?math=x"> is not an even number.
 
 ## Subsets
 
-Set $T$ is a subset of set $S$ if *every element* in set $T$ is also in set $S$. The mathematical notation for a subset is $T \subseteq S$. 
+Set <img src="https://render.githubusercontent.com/render/math?math=T"> is a subset of set <img src="https://render.githubusercontent.com/render/math?math=S"> if *every element* in set <img src="https://render.githubusercontent.com/render/math?math=T"> is also in set <img src="https://render.githubusercontent.com/render/math?math=S">. The mathematical notation for a subset is <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S">. 
 
-Typically, you'll be more interested in *proper subsets*. All proper subsets are subsets. The only difference between subsets and proper subsets is that a subset can technically be the entire set. In other words, if A = {1,2,3} and B = {1,2,3} A is subset of B. If C = {1,2} then C is both a subset and proper subset of A. C is also a subset and proper subset of B. The mathematical notation for proper subsets is : $ C \subset A $
+Typically, you'll be more interested in *proper subsets*. All proper subsets are subsets. The only difference between subsets and proper subsets is that a subset can technically be the entire set. In other words, if <img src="https://render.githubusercontent.com/render/math?math=A = \{1,2,3\}"> and <img src="https://render.githubusercontent.com/render/math?math=B = \{1,2,3\}">. <img src="https://render.githubusercontent.com/render/math?math=A"> is subset of <img src="https://render.githubusercontent.com/render/math?math=B">. If <img src="https://render.githubusercontent.com/render/math?math=C = \{1,2\}"> then <img src="https://render.githubusercontent.com/render/math?math=C"> is both a subset and proper subset of <img src="https://render.githubusercontent.com/render/math?math=A">. <img src="https://render.githubusercontent.com/render/math?math=C"> is also a subset and proper subset of <img src="https://render.githubusercontent.com/render/math?math=B">. The mathematical notation for proper subsets is : <img src="https://render.githubusercontent.com/render/math?math=C \subset A">
 
-**Example**: If S is the set of even numbers, set $T = \{2, 6, 22\}$ is a proper subset of $S$. Formally, you can write this as $T \subset S$. $T \subseteq S$ is also correct in this case!
+**Example**: If <img src="https://render.githubusercontent.com/render/math?math=S"> is the set of even numbers, set <img src="https://render.githubusercontent.com/render/math?math=T = \{2, 6, 22\}"> is a proper subset of <img src="https://render.githubusercontent.com/render/math?math=S">. Formally, you can write this as <img src="https://render.githubusercontent.com/render/math?math=T \subset S">. <img src="https://render.githubusercontent.com/render/math?math=T \subseteq S"> is also correct in this case!
 
 ## Universal Sets
 
 The collection of all possible outcomes in a certain context or universe is called the **universal set**.
-A universal set is often denoted by $\Omega$.
+A universal set is often denoted by <img src="https://render.githubusercontent.com/render/math?math=\Omega">.
 
 Example of a universal set: All the possible outcomes when rolling a dice.
 
-$\Omega = \{1,2,3,4,5,6\}$
+<img src="https://render.githubusercontent.com/render/math?math=\Omega = \{1,2,3,4,5,6\}">
 
 Remember that a universal set is not necessarily all the possible things that have ever existed. Typically, a universal set is just all the possible elements within certain bounds, e.g., the set of all countries in the world, the set of all the animal species in the Bronx Zoo, etc.
 
@@ -52,21 +51,21 @@ A universal set can have an infinite number of elements, for example, the set of
 
 ## Elementary Set Operations
 
-Next, let's talk about set operations. Imagine you have two sets of numbers, say the first 4 multiples of 3 in set $S$:
+Next, let's talk about set operations. Imagine you have two sets of numbers, say the first 4 multiples of 3 in set <img src="https://render.githubusercontent.com/render/math?math=S">:
 
-$ S = \{3,6,9,12\}$
+<img src="https://render.githubusercontent.com/render/math?math=S = \{3,6,9,12\}">
 
-and the first 4 multiples of 2 in set $T$:
+and the first 4 multiples of 2 in set <img src="https://render.githubusercontent.com/render/math?math=T">:
 
-$ T = \{2,4,6,8\} $.
+<img src="https://render.githubusercontent.com/render/math?math=T = \{2,4,6,8\}">.
 
 ### a) Union of Two Sets
 
-The union of two sets $S$ and $T$ is the set of elements of either S or T, or in both.  
+The union of two sets <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is the set of elements of either <img src="https://render.githubusercontent.com/render/math?math=S"> or <img src="https://render.githubusercontent.com/render/math?math=T">, or in both.  
 
-Applied to our example, the union of $S$ and $T$ is given by the elements $\{2,3,4,6,8,9,12\}$. 
+Applied to our example, the union of <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is given by the elements <img src="https://render.githubusercontent.com/render/math?math=\{2,3,4,6,8,9,12\}">. 
 
-In mathematical terms, the union of $S$ and $T$ is denoted as $S \cup T$.
+In mathematical terms, the union of <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is denoted as <img src="https://render.githubusercontent.com/render/math?math=S \cup T">.
 
 A popular way to represent sets and their relationships is through Venn Diagrams, (https://en.wikipedia.org/wiki/Venn_diagram), see picture below!
 
@@ -74,11 +73,11 @@ A popular way to represent sets and their relationships is through Venn Diagrams
 
 ### b) Intersection of Two Sets 
 
-The intersection of two sets $S$ and $T$ is the set that contains all elements of $S$ that also belong to $T$. 
+The intersection of two sets <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is the set that contains all elements of <img src="https://render.githubusercontent.com/render/math?math=S"> that also belong to <img src="https://render.githubusercontent.com/render/math?math=T">. 
 
-Applied to our example, the intersection of $S$ and $T$ is given by {6}, so it contains the elements that are multiples of both 2 AND 3.
+Applied to our example, the intersection of <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is given by <img src="https://render.githubusercontent.com/render/math?math=\{6\}">, so it contains the elements that are multiples of both 2 AND 3.
 
-In mathematical terms, the intersection of $S$ and $T$ is denoted as $S \cap T$.
+In mathematical terms, the intersection of <img src="https://render.githubusercontent.com/render/math?math=S"> and <img src="https://render.githubusercontent.com/render/math?math=T"> is denoted as <img src="https://render.githubusercontent.com/render/math?math=S \cap T">.
 
 <img src="images/new_intersection.png" width="250"/>
 
