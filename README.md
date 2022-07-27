@@ -349,7 +349,7 @@ Applied to our example, the union of $S$ and $T$ is given by the elements $\{2,3
 
 A popular way to represent sets and their relationships is through Venn Diagrams, (https://en.wikipedia.org/wiki/Venn_diagram), see picture below!
 
-<img src="images/new_union.png" width="250"/>
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-intro-to-sets/master/images/new_union.png" alt="Venn diagram of the union of S and T" width="250"/>
 
 (Note that elements of $\Omega$ that are not part of $S$ or $T$ are outside of both circles but still within the bounding box.)
 
@@ -389,7 +389,7 @@ The intersection of two sets $S$ and $T$ is the set that contains all elements o
 
 Applied to our example, the intersection of $S$ and $T$ is given by $\{6\}$, so it contains the elements that are multiples of both 2 AND 3.
 
-<img src="images/new_intersection.png" width="250"/>
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-intro-to-sets/master/images/new_intersection.png" alt="Venn diagram of intersection of S and T" width="250"/>
 
 In mathematical terms, the intersection of $S$ and $T$ is denoted as $S \cap T$.
 
@@ -427,7 +427,7 @@ In general, the *complement* of a set means the elements that are not in that se
 
 For example, the relative complement of $S$ in $T$ is $\{2, 4, 8\}$, meaning the set of elements that are in $T$ but not in $S$. This is also referred to as the *difference* between $T$ and $S$.
 
-<img src="images/new_rel_comp.png" width="250"/>
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-intro-to-sets/master/images/new_rel_comp.png" alt="Venn diagram of the relative complement of S in T" width="250"/>
 
 In mathematical terms, difference is denoted by $ T\backslash S $ or $T-S$. In this case, the relative complement of $S$ in $T$ (or $ T\backslash S $) is $\{2,4,8\}$. The relative complement of $T$ in $S$ (or $ S\backslash T $) is $\{3,9,12\}$.
 
@@ -479,7 +479,7 @@ The absolute complement of $S$, with respect to the universal set $\Omega$, is t
 
 Returning to the previous $T$ and $S$ example, the absolute complement of $S$ would be $\{2,4,8,10,14,15,16,18,20\}$, as shown in the diagram below.
 
-<img src="images/new_abs_comp.png" width="250"/>
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-intro-to-sets/master/images/new_abs_comp.png" alt="Venn diagram of the absolute complement of S" width="250"/>
 
 Mathematically, the absolute complement of $S$ is denoted as $S'$ or $S^c$. In other words, for the example above:
 
@@ -668,7 +668,7 @@ This formula can also be extended to three sets, four sets, etc. For example, im
 $\mid S \cup T\cup R \mid = \mid S \mid + \mid T \mid + \mid R \mid - \mid S \cap T \mid  -\mid S \cap R \mid - \mid R \cap T \mid  + \mid S \cap T \cap R \mid $
 
 
-<img src="images/new_venn_diagram.png" width="350"/>
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-intro-to-sets/master/images/new_venn_diagram.png" alt="Venn diagram showing overlaps of three sets" width="350"/>
 
 This technique is an important foundation for the probability and combinatorics concepts in the upcoming lessons.
 
